@@ -26,7 +26,7 @@
                             <source_model>adminhtml/system_config_source_yesno</source_model>
                             <tooltip>Is this module enabled?</tooltip>
                         </enabled>
-                        <message translate="label">
+                        <message translate="label comment">
                             <label>Custom Message</label>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
@@ -35,6 +35,9 @@
                             <frontend_type>text</frontend_type>
                             <tooltip>Type in your custom message</tooltip>
                             <comment>This is a comment, is usefull for describe what this do</comment>
+                            <depends>
+                                <enabled>1</enabled>
+                            </depends>
                         </message>
                     </fields>
                 </configuration>
