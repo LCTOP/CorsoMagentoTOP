@@ -18,13 +18,13 @@ class Calamandrei_Helloworld_IndexController extends Mage_Core_Controller_Front_
 
     /**
      * indexController
-     *
      * Show the content of the custom message of this module in a blank page
      */
     public function indexAction()
     {
-        echo "message: " . Mage::helper('calamandrei_helloworld')->getMessage('configuration/message');
-        die();
+        $this->loadLayout();
+        $this->renderLayout();
     }
 
 }
+

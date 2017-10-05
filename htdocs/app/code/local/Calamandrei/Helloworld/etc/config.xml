@@ -27,6 +27,13 @@
                 </args>
             </calamandrei_helloworld>
         </routers>
+        <layout>
+            <updates>
+                <calamandrei_helloworld>
+                    <file>calamandrei_helloworld.xml</file>
+                </calamandrei_helloworld>
+            </updates>
+        </layout>
     </frontend>
     <default>
         <calamandrei_helloworld>

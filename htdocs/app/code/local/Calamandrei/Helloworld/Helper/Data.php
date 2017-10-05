@@ -18,7 +18,6 @@ class Calamandrei_Helloworld_Helper_Data extends Mage_Core_Helper_Abstract
 
     /**
      * getConfig
-     *
      * @param $config
      * @return mixed
      */
@@ -29,7 +28,6 @@ class Calamandrei_Helloworld_Helper_Data extends Mage_Core_Helper_Abstract
 
     /**
      * isEnabled
-     *
      * Return true if the module is enabled.
      * @return bool
      */
@@ -38,16 +36,5 @@ class Calamandrei_Helloworld_Helper_Data extends Mage_Core_Helper_Abstract
         return $this->getConfig('configuration/enabled');
     }
 
-    /**
-     * getMessage
-     *
-     * Return the custom message of module
-     * @param $config
-     * @return mixed
-     */
-    public function getMessage($config)
-    {
-        return $this->getConfig($config);
-    }
-
 }
+
