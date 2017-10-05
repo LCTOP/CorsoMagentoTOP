@@ -11,10 +11,10 @@
                         <children>
                             <config>
                                 <children>
-                                    <Calamandrei_HelloWorld translate="title">
+                                    <calamandrei_helloworld translate="title">
                                         <title>Hello World Permissions</title>
                                         <sort_order>100</sort_order>
-                                    </Calamandrei_HelloWorld>
+                                    </calamandrei_helloworld>
                                 </children>
                             </config>
                         </children>

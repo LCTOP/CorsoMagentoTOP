@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <config>
     <modules>
-        <Calamandrei_HelloWorld>
+        <calamandrei_helloworld>
             <version>0.1.0</version>
-        </Calamandrei_HelloWorld>
+        </calamandrei_helloworld>
     </modules>
     <global>
         <blocks>
-            <Calamandrei_HelloWorld>
-                <class>Calamandrei_HelloWorld_Block</class>
-            </Calamandrei_HelloWorld>
+            <calamandrei_helloworld>
+                <class>calamandrei_helloworld_Block</class>
+            </calamandrei_helloworld>
         </blocks>
         <helpers>
-            <Calamandrei_HelloWorld>
-                <class>Calamandrei_HelloWorld_Helper</class>
-            </Calamandrei_HelloWorld>
+            <calamandrei_helloworld>
+                <class>calamandrei_helloworld_Helper</class>
+            </calamandrei_helloworld>
         </helpers>
     </global>
     <frontend>
         <routers>
-            <Calamandrei_HelloWorld>
+            <calamandrei_helloworld>
                 <use>standard</use>
                 <args>
-                    <module>Calamandrei_HelloWorld</module>
+                    <module>calamandrei_helloworld</module>
                     <frontName>hello</frontName>
                 </args>
-            </Calamandrei_HelloWorld>
+            </calamandrei_helloworld>
         </routers>
     </frontend>
     <default>
-        <Calamandrei_HelloWorld>
+        <calamandrei_helloworld>
             <configuration>
                 <enabled>1</enabled>
                 <message>Test message from config.xml</message>
             </configuration>
-        </Calamandrei_HelloWorld>
+        </calamandrei_helloworld>
     </default>
 </config>

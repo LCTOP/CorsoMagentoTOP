@@ -13,7 +13,7 @@
  *
  */
 
-class Calamandrei_HelloWorld_IndexController extends Mage_Core_Controller_Front_Action
+class Calamandrei_Helloworld_IndexController extends Mage_Core_Controller_Front_Action
 {
 
     /**
@@ -23,12 +23,8 @@ class Calamandrei_HelloWorld_IndexController extends Mage_Core_Controller_Front_
      */
     public function indexAction()
     {
-        echo "False Test 2 for testing ssh config with Git";
+        echo "message: " . Mage::helper('calamandrei_helloworld')->getMessage('configuration/message');
         die();
-        /*
-        $helper = new Calamandrei_HelloWorld_Helper_Data();
-        die($helper->getMessage());
-        */
     }
 
 }

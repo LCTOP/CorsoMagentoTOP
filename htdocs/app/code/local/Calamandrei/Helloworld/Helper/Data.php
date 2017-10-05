@@ -13,7 +13,7 @@
  *
  */
 
-class Calamandrei_HelloWorld_Helper_Data extends Mage_Core_Helper_Abstract
+class Calamandrei_Helloworld_Helper_Data extends Mage_Core_Helper_Abstract
 {
 
     /**
@@ -42,11 +42,12 @@ class Calamandrei_HelloWorld_Helper_Data extends Mage_Core_Helper_Abstract
      * getMessage
      *
      * Return the custom message of module
+     * @param $config
      * @return mixed
      */
-    public function getMessage()
+    public function getMessage($config)
     {
-        return $this->getConfig('configuration/message');
+        return $this->getConfig($config);
     }
 
 }
