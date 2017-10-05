@@ -23,7 +23,7 @@ class Calamandrei_HelloWorld_IndexController extends Mage_Core_Controller_Front_
      */
     public function indexAction()
     {
-        echo "False Test";
+        echo "False Test 2 for testing ssh config with Git";
         die();
         /*
         $helper = new Calamandrei_HelloWorld_Helper_Data();
