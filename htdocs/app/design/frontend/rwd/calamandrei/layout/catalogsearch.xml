@@ -32,6 +32,7 @@
         <reference name="header">
             <block type="core/template" name="top.search" as="topSearch" template="catalogsearch/form.mini.phtml"/>
             <!--block type="core/template" name="top.search" as="topSearch" template="catalogsearch/form.mini.phtml"/-->
+
         </reference>
         <reference name="footer_links">
             <action method="addLink" translate="label title" module="catalogsearch" ifconfig="catalog/seo/search_terms">
@@ -46,6 +47,12 @@
             </action>
         </reference>
     </default>
+
+    <catalog_product_view>
+        <reference name="header">
+            <remove name="top.search" />
+        </reference>
+    </catalog_product_view>
 
     <catalogsearch_result_index translate="label">
         <label>Quick Search Form</label>
