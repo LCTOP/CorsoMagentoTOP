@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <config>
     <modules>
-        <calamandrei_helloworld>
+        <Calamandrei_Helloworld>
             <version>0.1.0</version>
-        </calamandrei_helloworld>
+        </Calamandrei_Helloworld>
     </modules>
     <global>
         <blocks>
             <calamandrei_helloworld>
-                <class>calamandrei_helloworld_Block</class>
+                <class>Calamandrei_Helloworld_Block</class>
             </calamandrei_helloworld>
         </blocks>
         <helpers>
             <calamandrei_helloworld>
-                <class>calamandrei_helloworld_Helper</class>
+                <class>Calamandrei_Helloworld_Helper</class>
             </calamandrei_helloworld>
         </helpers>
     </global>
@@ -22,7 +22,7 @@
             <calamandrei_helloworld>
                 <use>standard</use>
                 <args>
-                    <module>calamandrei_helloworld</module>
+                    <module>Calamandrei_Helloworld</module>
                     <frontName>hello</frontName>
                 </args>
             </calamandrei_helloworld>
